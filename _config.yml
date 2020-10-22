@@ -4,7 +4,7 @@ email: spamj@callear.net
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Jacob Callear | Project Showcase | Data Engineer"
 keywords: "data engineer, python, sql, aws, engineering, "
-skills: "Data Engineer | Python - SQL - AWS|"
+skills: "Data Engineer | Python - SQL - AWS |"
 meta_author: Jacob Callear
 
 # Google webmaster tools
@@ -32,9 +32,9 @@ color:
 
 # Footer settings
 footer:
-  copyright: Jacob Callear 2020
-  location: Dudley, West Midlands, UK
-  social: Around the Web
+  copyright: Jacob Callear
+  location: Location
+  social: Links
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -51,7 +51,7 @@ address:
   - line: UK
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Freelancer is an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
