@@ -1,27 +1,14 @@
 # Site settings
 title: Jacob Callear
 email: spamj@callear.net
-url: https://github.com/jeromelachaud/freelancer-theme
+url: https://github.com/jacobcallear/jacobcallear.github.io
 description: "Jacob Callear | Project Showcase | Data Engineer"
-keywords: "data engineer, python, sql, aws, engineering, "
+keywords: "data engineer, python, sql, aws, engineering, amazon web services"
 skills: "Data Engineer | Python - SQL - AWS |"
 meta_author: Jacob Callear
 
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
+# Pass contact form through formspree.io to validate email sending
 contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -37,7 +24,7 @@ footer:
   social: Links
   credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
   - title: linkedin
     url: https://uk.linkedin.com/in/jacob-callear
