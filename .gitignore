@@ -1,8 +1,9 @@
-.DS_Store
+# Local jekyll build artifacts
 
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 
+# Unnecessary for GitHub Pages
 Gemfile.lock
