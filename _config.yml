@@ -12,10 +12,12 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: '006747'
-  primary-rgb: '0,103,71'
-  secondary: 'E95C20'
-  secondary-dark: 'E95C20'
+  # Top section - dark blue
+  primary: '002b36'
+  primary-rgb: '0,43,54'
+  # Header - dark orange
+  secondary: 'cb4b16'
+  secondary-dark: 'cb4b16'
 
 # Footer settings
 footer:
