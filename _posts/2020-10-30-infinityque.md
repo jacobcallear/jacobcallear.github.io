@@ -22,4 +22,5 @@ QuickSight is then used to visualise the data.
 
 <br>
 
-![Data pipeline architecture flowchart](/img/infinityque-architecture.png)
+<img class="img-responsive img-centered" src="/img/infinityque-architecture.png"
+     alt="Flowchart of data pipeline architecture">
