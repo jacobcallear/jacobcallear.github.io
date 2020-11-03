@@ -11,4 +11,7 @@ category: Website
 
 My online digital portfolio - you're looking at it! Built using the static site generator **Jekyll** and hosted on **GitHub Pages**.
 
-[GitHub repo](https://github.com/jacobcallear/jacobcallear.github.io)
+<a href="https://github.com/jacobcallear/jacobcallear.github.io">
+  <i class="fa fa-fw fa-github"></i>
+  GitHub
+</a>

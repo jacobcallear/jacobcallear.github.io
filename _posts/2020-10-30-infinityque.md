@@ -14,9 +14,15 @@ transaction data for analysis and visualisation. Python Lambda functions extract
 and transform the data before loading it into a RedShift data warehouse. AWS
 QuickSight is then used to visualise the data.
 
-[GitHub repo](https://github.com/data-engineering-bir-1/team-3-project)
+<a href="https://github.com/jacobcallear/infinityque">
+  <i class="fa fa-fw fa-github"></i>
+  GitHub
+</a>
 
-[Website](https://infinityque0.wixsite.com/project)
+<a href="https://infinityque0.wixsite.com/project">
+  <i class="fa fa-fw fa-globe"></i>
+  Website
+</a>
 
 ## Architecture
 
