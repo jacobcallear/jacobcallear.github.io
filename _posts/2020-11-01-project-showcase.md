@@ -9,7 +9,8 @@ client: Generation
 category: Website
 ---
 
-My online digital portfolio - you're looking at it! Built using the static site generator **Jekyll** and hosted on **GitHub Pages**.
+My online digital portfolio - you're looking at it! Built using the static site generator Jekyll. Forked from Jerome Lachaud's
+[freelancer-theme.](https://github.com/jeromelachaud/freelancer-theme)
 
 <a href="https://github.com/jacobcallear/jacobcallear.github.io">
   <i class="fa fa-fw fa-github"></i>
