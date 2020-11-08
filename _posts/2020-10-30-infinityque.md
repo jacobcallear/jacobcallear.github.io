@@ -7,6 +7,7 @@ client: Generation
 category: Data Warehouse
 github-repo: https://github.com/jacobcallear/infinityque
 website: https://infinityque0.wixsite.com/project
+languages: Python, SQL, YAML
 summary:
   Cloud database application that extracts, cleans, and transforms cafe
   transaction data for analysis and visualisation. Python Lambda functions
