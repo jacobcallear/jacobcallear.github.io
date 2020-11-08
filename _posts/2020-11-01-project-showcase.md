@@ -1,5 +1,4 @@
 ---
-modal-id: 2
 img: jekyll-logo.png
 alt: Jekyll logo
 project-date: November 2020

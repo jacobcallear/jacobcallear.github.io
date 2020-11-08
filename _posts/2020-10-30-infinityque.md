@@ -1,5 +1,4 @@
 ---
-modal-id: 1
 img: aws-logo.jpg
 alt: Amazon Web Services logo
 project-date: October 2020
