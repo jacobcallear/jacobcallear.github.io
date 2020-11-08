@@ -5,24 +5,16 @@ alt: Amazon Web Services logo
 project-date: October 2020
 client: Generation
 category: Data Warehouse
+github-repo: https://github.com/jacobcallear/infinityque
+website: https://infinityque0.wixsite.com/project
+summary:
+  Cloud database application that extracts, cleans, and transforms cafe
+  transaction data for analysis and visualisation. Python Lambda functions
+  extract and transform the data before loading it into a RedShift data
+  warehouse. AWS QuickSight is then used to visualise the data.
 ---
 
-Cloud database application that extracts, cleans, and transforms cafe
-transaction data for analysis and visualisation. Python Lambda functions extract
-and transform the data before loading it into a RedShift data warehouse. AWS
-QuickSight is then used to visualise the data.
-
-<a href="https://github.com/jacobcallear/infinityque">
-  <i class="fa fa-fw fa-github"></i>
-  GitHub
-</a>
-
-<a href="https://infinityque0.wixsite.com/project">
-  <i class="fa fa-fw fa-globe"></i>
-  Website
-</a>
-
-## Architecture
+### Architecture
 
 <br>
 
