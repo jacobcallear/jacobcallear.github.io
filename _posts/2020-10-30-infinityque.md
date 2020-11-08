@@ -3,7 +3,6 @@ modal-id: 1
 img: aws-logo.jpg
 alt: Amazon Web Services logo
 project-date: October 2020
-client: Generation
 category: Data Warehouse
 github-repo: https://github.com/jacobcallear/infinityque
 website: https://infinityque0.wixsite.com/project
