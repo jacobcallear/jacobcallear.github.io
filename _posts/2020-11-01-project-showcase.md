@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 2
 date: 2020-11-02
 img: jekyll-logo.png

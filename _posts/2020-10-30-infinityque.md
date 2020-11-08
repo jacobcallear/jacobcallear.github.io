@@ -1,5 +1,4 @@
 ---
-layout: default
 modal-id: 1
 date: 2020-10-30
 img: aws-logo.jpg
