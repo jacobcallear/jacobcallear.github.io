@@ -10,3 +10,26 @@ summary:
   site generator Jekyll. Forked from Jerome Lachaud's
   [freelancer-theme.](https://github.com/jeromelachaud/freelancer-theme)
 ---
+
+### Code Samples
+
+The following code adds a markdown-formatted summary and a GitHub repository
+link to each project post. A website link is added if available.
+
+```html
+{{ post.summary | markdownify }}
+<p>
+  <a href={{ post.github-repo }}>
+    <i class="fa fa-fw fa-github"></i>
+    GitHub repo
+  </a>
+</p>
+{% if post.website %}
+  <p>
+    <a href={{ post.website }}>
+      <i class="fa fa-fw fa-globe"></i>
+      Website
+    </a>
+  </p>
+{% endif %}
+```
