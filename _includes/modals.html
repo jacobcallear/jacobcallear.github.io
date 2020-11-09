@@ -39,7 +39,8 @@
               </p>
             {% endif %}
             {% if post.screenshots %}
-              {% for screenshot in screenshots %}
+              <h3>Screenshots</h3>
+              {% for screenshot in post.screenshots %}
                 <p>{{ screenshot.description }}</p>
                 <img class="img-responsive img-centered"
                     src="/img/screenshots/{{ screenshot.src }}"
