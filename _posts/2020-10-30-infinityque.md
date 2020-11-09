@@ -9,6 +9,10 @@ category: Data Warehouse
 github-repo: jacobcallear/infinityque
 website: https://infinityque0.wixsite.com/project
 languages: Python, SQL, YAML
+screenshots:
+  - src: infinityque-plot.png
+    alt: AWS QuickSight bar chart of the most popular drinks in October
+    description: AWS QuickSight used to visualise data 
 summary:
   Cloud database application that extracts, cleans, and transforms cafe
   transaction data for analysis and visualisation. Python Lambda functions
