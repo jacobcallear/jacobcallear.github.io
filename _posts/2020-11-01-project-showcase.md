@@ -23,7 +23,7 @@ link to each project post. A website link is added if available.
 ```html
 {{ post.summary | markdownify }}
 <p>
-  <a href={{ post.github-repo }}>
+  <a href="https://github.com/{{ post.github-repo }}">
     <i class="fa fa-fw fa-github"></i>
     GitHub repo
   </a>
@@ -35,6 +35,9 @@ link to each project post. A website link is added if available.
       Website
     </a>
   </p>
+{% endif %}
+{% if post.content %}
+  <p>{{ post.content }}</p>
 {% endif %}
 ```
 {% endraw %}
