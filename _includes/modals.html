@@ -38,6 +38,14 @@
                 </a>
               </p>
             {% endif %}
+            {% if post.screenshots %}
+              {% for screenshot in screenshots %}
+                <p>{{ screenshot.description }}</p>
+                <img class="img-responsive img-centered"
+                    src="/img/screenshots/{{ screenshot.src }}"
+                    alt="{{ screenshot.alt }}">
+              {% endfor %}
+            {% endif %}
             {% if post.content %}
               <p>{{ post.content }}</p>
             {% endif %}
