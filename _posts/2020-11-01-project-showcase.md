@@ -2,6 +2,9 @@
 img-grid:
   src: jekyll-logo.png
   alt: Jekyll logo
+img-header:
+  src: project-showcase.png
+  alt: Screenshot of project showcase website
 project-date: November 2020
 category: Website
 github-repo: jacobcallear/jacobcallear.github.io

@@ -5,7 +5,7 @@ Digital portfolio at
 
 ## Screenshot
 
-![Screenshot of project showcase website](./screenshot.png)
+![Screenshot of project showcase website](img/portfolio-headers/project-showcase.png)
 
 ## Credits
 
