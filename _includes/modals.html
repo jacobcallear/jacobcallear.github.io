@@ -15,11 +15,11 @@
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
             {% if post.img-header %}
-              <img src="img/portfolio-headers/{{ post.img-header.src }}"
+              <img src="/img/portfolio-headers/{{ post.img-header.src }}"
               class="img-responsive img-centered"
               alt="{{ post.img-header.alt }}">
             {% else %}
-              <img src="img/portfolio-grid/{{ post.img-grid.src }}"
+              <img src="/img/portfolio-grid/{{ post.img-grid.src }}"
               class="img-responsive img-centered"
               alt="{{ post.img-grid.alt }}">
             {% endif %}
