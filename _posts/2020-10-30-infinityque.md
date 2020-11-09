@@ -3,7 +3,7 @@ img-grid:
   src: aws-logo.jpg
   alt: Amazon Web Services logo
 img-header:
-  src: infinityque.png
+  src: infinityque-architecture.png
   alt: Architecture diagram of InfinityQue data pipeline
 category: Data Warehouse
 github-repo: jacobcallear/infinityque
@@ -19,10 +19,3 @@ summary:
   extract and transform the data before loading it into a RedShift data
   warehouse. AWS QuickSight is then used to visualise the data.
 ---
-
-### Architecture
-
-<br>
-
-<img class="img-responsive img-centered" src="/img/infinityque-architecture.png"
-     alt="Flowchart of data pipeline architecture">
