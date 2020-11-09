@@ -5,7 +5,6 @@ img-grid:
 img-header:
   src: infinityque.png
   alt: Architecture diagram of InfinityQue data pipeline
-project-date: October 2020
 category: Data Warehouse
 github-repo: jacobcallear/infinityque
 website: https://infinityque0.wixsite.com/project
