@@ -1,6 +1,10 @@
 ---
-img: aws-logo.jpg
-alt: Amazon Web Services logo
+img-grid:
+  src: aws-logo.jpg
+  alt: Amazon Web Services logo
+img-header:
+  src: infinityque.png
+  alt: Architecture diagram of InfinityQue data pipeline
 project-date: October 2020
 category: Data Warehouse
 github-repo: jacobcallear/infinityque

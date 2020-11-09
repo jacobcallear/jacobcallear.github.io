@@ -1,6 +1,7 @@
 ---
-img: jekyll-logo.png
-alt: Jekyll logo
+img-grid:
+  src: jekyll-logo.png
+  alt: Jekyll logo
 project-date: November 2020
 category: Website
 github-repo: jacobcallear/jacobcallear.github.io
