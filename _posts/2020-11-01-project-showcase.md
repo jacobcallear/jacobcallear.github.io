@@ -14,7 +14,7 @@ summary:
   [freelancer-theme.](https://github.com/jeromelachaud/freelancer-theme)
 ---
 
-### Code Samples
+## Code Samples
 
 The following code adds a markdown-formatted summary and a GitHub repository
 link to each project post. A website link is added if available.
