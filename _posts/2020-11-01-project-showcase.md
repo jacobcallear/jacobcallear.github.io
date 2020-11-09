@@ -3,7 +3,7 @@ img: jekyll-logo.png
 alt: Jekyll logo
 project-date: November 2020
 category: Website
-github-repo: https://github.com/jacobcallear/jacobcallear.github.io
+github-repo: jacobcallear/jacobcallear.github.io
 languages: Jekyll Liquid, HTML, CSS, JavaScript
 summary:
   My online digital portfolio - you're looking at it! Built using the static

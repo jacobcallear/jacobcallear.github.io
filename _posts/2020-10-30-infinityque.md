@@ -3,7 +3,7 @@ img: aws-logo.jpg
 alt: Amazon Web Services logo
 project-date: October 2020
 category: Data Warehouse
-github-repo: https://github.com/jacobcallear/infinityque
+github-repo: jacobcallear/infinityque
 website: https://infinityque0.wixsite.com/project
 languages: Python, SQL, YAML
 summary:
