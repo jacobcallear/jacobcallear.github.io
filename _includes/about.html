@@ -21,17 +21,14 @@
         <p>
           <b>Tools:</b> AWS, MySQL, Snowflake, Docker
         </p>
-        <ul class="list-inline">  
-          <li>
-            <a href="https://uk.linkedin.com/in/jacob-callear" class="btn-social btn-outline">
-              <i class="fa fa-fw fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/jacobcallear" class="btn-social btn-outline">
-              <i class="fa fa-fw fa-github"></i>
-            </a>
-          </li>
+        <ul class="list-inline">
+          {% for network in site.social %}
+            <li>
+              <a href="{{ network.url }}" class="btn-social btn-outline">
+                <i class="fa fa-fw fa-{{ network.title }}"></i>
+              </a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
     </div>
