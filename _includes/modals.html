@@ -41,7 +41,7 @@
             {% if post.screenshots %}
               <h3>Screenshots</h3>
               {% for screenshot in post.screenshots %}
-                <p>{{ screenshot.description }}</p>
+                <p>{{ screenshot.description | markdownify }}</p>
                 <img class="img-responsive img-centered"
                     src="/img/screenshots/{{ screenshot.src }}"
                     alt="{{ screenshot.alt }}">
