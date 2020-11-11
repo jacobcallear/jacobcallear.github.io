@@ -12,20 +12,22 @@ languages: Python, SQL, YAML
 screenshots:
   - src: infinityque-plot.png
     alt: AWS QuickSight bar chart of the most popular drinks in October
-    description: AWS QuickSight used to visualise data
+    description: AWS Quicksight bar plot of highest-selling products
   - src: infinityque-grafana.png
     alt: Screenshot of Grafana dashboard showing product metrics
     description: Grafana dashboard with AWS CloudWatch used to track metrics
 summary:
-  Cloud database application that extracts, cleans, and transforms cafe
-  transaction data for analysis and visualisation. Python Lambda functions
-  extract and transform the data before loading it into a RedShift data
-  warehouse. AWS QuickSight is then used to visualise the data.
+  Cloud database application for a cafe chain. Extracts, cleans, and transforms
+  transaction data for business analysis. Processes 150,000 orders per day from
+  AWS S3 and Kinesis data stream. Python Lambda functions extract and transform
+  the data before loading it into a RedShift data warehouse. AWS QuickSight is
+  used to analyse and visualise the data.
 ---
 
 ## Code Samples
 
-The python code below loads cleaned transaction data into the data warehouse
+`Python`: Sample of the load Lambda that stores cleaned transation data as the
+parent table in a relational database
 
 ```python
 with conn.cursor() as cursor:
@@ -45,7 +47,8 @@ with conn.cursor() as cursor:
     logging.info('Transactions written to database')
 ```
 
-The YAML extract below defines the AWS permissions for the extract Lambda
+`YAML`: Extract from the *severless.yml* file that gives the extract Lambda
+permission to send JSON data to an SQS queue for further processing
 
 ```yaml
 iamRoleStatements:

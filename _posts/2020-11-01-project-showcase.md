@@ -16,8 +16,9 @@ summary:
 
 ## Code Samples
 
-The following code adds a markdown-formatted summary and a GitHub repository
-link to each project post. A website link is added if available.
+`HTML` / `Jekyll Liquid`: Extract from a layout file that adds a markdown-
+formatted summary and a GitHub repository link to each project post. A website
+link is added if available.
 
 {% raw %}
 ```html
