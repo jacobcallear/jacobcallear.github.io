@@ -39,7 +39,7 @@
               </p>
             {% endif %}
             {% if post.screenshots %}
-              <h2>Screenshots</h2>
+              <h3>Screenshots</h2>
               {% for screenshot in post.screenshots %}
                 <p>{{ screenshot.description | markdownify }}</p>
                 <img class="img-responsive img-centered"

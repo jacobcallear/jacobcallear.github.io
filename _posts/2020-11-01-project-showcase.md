@@ -14,7 +14,7 @@ summary:
   [freelancer-theme.](https://github.com/jeromelachaud/freelancer-theme)
 ---
 
-## Code Samples
+### Code Samples
 
 `HTML` / `Jekyll Liquid`: Extract from a layout file that adds a markdown-
 formatted summary and a GitHub repository link to each project post. A website

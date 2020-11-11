@@ -24,7 +24,7 @@ summary:
   used to analyse and visualise the data.
 ---
 
-## Code Samples
+### Code Samples
 
 `Python`: Sample of the load Lambda that stores cleaned transation data as the
 parent table in a relational database
@@ -60,7 +60,7 @@ iamRoleStatements:
     Resource: !GetAtt Group3SQSExtracttoTransform.Arn
 ```
 
-## Contributors
+### Contributors
 
 - Jacob Callear
 - Shameela Begum
