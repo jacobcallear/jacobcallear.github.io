@@ -9,28 +9,20 @@
     </div>
     <div class="row">
       <div class="col-lg-4 col-lg-offset-2">
-        <p>
-          Aspiring data engineer with experience of building ETL pipelines and
-          database applications using Python, SQL, and Amazon Web Services
-        </p>
+        {{ site.about-me | markdownify }}
       </div>
       <div class="col-lg-4">
-        <p>
-          <b>Languages:</b> Python, SQL, Bash
-        </p>
-        <p>
-          <b>Tools:</b> AWS, MySQL, Snowflake, Docker
-        </p>
-        <ul class="list-inline">
-          {% for network in site.social %}
-            <li>
-              <a href="{{ network.url }}" class="btn-social btn-outline">
-                <i class="fa fa-fw fa-{{ network.title }}"></i>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
+        {{ site.about-skills | markdownify }}
       </div>
     </div>
+    <ul class="list-inline" style="text-align: center">
+      {% for network in site.social %}
+        <li>
+          <a href="{{ network.url }}" class="btn-social btn-outline">
+            <i class="fa fa-fw fa-{{ network.title }}"></i>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
