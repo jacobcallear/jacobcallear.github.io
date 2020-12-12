@@ -47,7 +47,7 @@ with conn.cursor() as cursor:
     logging.info('Transactions written to database')
 ```
 
-`YAML`: Extract from the *severless.yml* file that gives the extract Lambda
+`YAML`: Extract from the *serverless.yml* file that gives the extract Lambda
 permission to send JSON data to an SQS queue for further processing
 
 ```yaml
