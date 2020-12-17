@@ -20,6 +20,7 @@ class SnakeHat(SenseHat):
     '''Describes the 8x8 LED grid for a snake game.'''
 
     def __init__(self):
+      '''Connect to SenseHat and create snake with one pixel.'''
         super().__init__()
         # Light pixels
         self.clear()
