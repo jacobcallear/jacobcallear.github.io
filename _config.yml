@@ -62,15 +62,13 @@ defaults:
       layout: default
 
 about-me: |
-  Aspiring data engineer and graduate of the Generation Data Engineering course
-  
-  Interested in the use of programming to make sense of vast amounts of data
+  Interested in the use of programming to make sense of data
 
   Practical experience of building ETL pipelines and database applications
 
 about-skills: |
-  - **Languages**: Python, SQL, Bash
+  - **Languages**: Python, SQL, JavaScript, R, Bash
 
-  - **Tools**: AWS, MySQL, PostgreSQL, Snowflake
+  - **Tools**: AWS, MySQL, PostgreSQL, Git
 
   - **Development Skills**: Scrum, GitHub
