@@ -32,7 +32,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          Copyright &copy; {{ site.footer.copyright }} 2020 - {{ 'now' | date: '%Y' }}
+          Copyright &copy; {{ site.footer.copyright }}
+          <time datetime="2020">2020</time> -
+          <time datetime="{{ 'now' | date: '%Y' }}">{{ 'now' | date: '%Y' }}</time>
         </div>
       </div>
     </div>
