@@ -4,7 +4,7 @@ email: spamj@callear.net
 url: https://github.com/jacobcallear/jacobcallear.github.io
 description: "Jacob Callear | Project Showcase | Data Engineer"
 keywords: "data engineer, python, sql, aws, engineering, amazon web services"
-skills: "Data Engineering | Python - SQL - AWS |"
+skills: "| Python - SQL - AWS |"
 meta_author: Jacob Callear
 
 # Pass contact form through formspree.io to validate email sending
@@ -67,7 +67,7 @@ about-me: |
   Practical experience of building ETL pipelines and database applications
 
 about-skills: |
-  - **Languages**: Python, SQL, JavaScript, R, Bash
+  - **Languages**: Python, SQL, JavaScript, Rust, R, Bash
 
   - **Tools**: AWS, MySQL, PostgreSQL, Git
 
