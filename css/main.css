@@ -26,7 +26,7 @@ a:active,
 a.active {
     text-decoration: underline;
     outline: 0;
-    color: #{{ site.color.secondary }};
+    color: #ebdbb2;
 }
 
 h1,
