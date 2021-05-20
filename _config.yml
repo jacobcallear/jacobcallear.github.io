@@ -1,9 +1,8 @@
 # Site settings
-title: Jacob Callear | Portfolio
-email: spamj@callear.net
+title: Jacob Callear
+email: jncallear@gmail.com
 url: https://github.com/jacobcallear/jacobcallear.github.io
 description: "Jacob Callear | Project Showcase | Data Engineer"
-keywords: "data engineer, python, sql, aws, engineering, amazon web services"
 skills: "| Python - SQL - AWS |"
 meta_author: Jacob Callear
 
@@ -62,13 +61,10 @@ defaults:
       layout: default
 
 about-me: |
-  Interested in the use of programming to make sense of data
-
-  Practical experience of building ETL pipelines and database applications
+  Associate software consultant at
+  **[Infinity Works](https://infinityworks.com/)**
 
 about-skills: |
-  - **Languages**: Python, SQL, JavaScript, Rust, R, Bash
+  - **Languages**: Python, JavaScript, SQL
 
-  - **Tools**: AWS, MySQL, PostgreSQL, Git
-
-  - **Development Skills**: Scrum, GitHub
+  - **Tools**: AWS, MySQL / PostgreSQL, Git

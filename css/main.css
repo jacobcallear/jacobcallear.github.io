@@ -24,8 +24,9 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+    text-decoration: underline;
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 h1,
